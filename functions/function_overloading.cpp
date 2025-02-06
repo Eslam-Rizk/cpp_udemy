@@ -1,6 +1,9 @@
 #include <iostream>
 
-// function overloading: Compiler depends on the different arguments to tell functions apart NOT return type
+// Function Overloading: Compiler depends on the different arguments to tell functions apart NOT return type
+// Encupsulaion: since as a user, i only think of display function not the different types of it -> out of my scope information
+// Polymorphism: a function works with different data types and arguments to execute similar behaviour
+
 void display();
 void display(int);
 void display(double);
